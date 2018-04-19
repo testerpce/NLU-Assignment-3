@@ -208,7 +208,7 @@ with open('outlstm.txt', 'w') as f:
             print(UniqueODT[true.tolist()[j]]," ")
             f.write(" ")
             f.write(UniqueODT[p[0].tolist()[j]])
-            print(UniqueODT[p[0].tolist()[j]," \n")
+            print(UniqueODT[p[0].tolist()[j]]," \n")
             f.write("\n")
         print("\n")
         f.write("\n")
